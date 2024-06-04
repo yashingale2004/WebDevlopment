@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: monospace;
+}
+h3 {
+  text-align: start;
+  font-family: monospace;
+}
+p {
+  text-align: justify;
+  line-height: normal;
+  /* font-family: avant garde, monospace, Arial, Helvetica, sans-serif; */
+  font-family: cursive;
+}
+h2 {
+  font-family: monaco, Consolas, Lucida Console, monospace;
+  font-weight: bold;
+  /* text-decoration: wavy underline; */
+}
+p {
+  font-weight: normal;
+}
+a {
+  font-family: monospace, "Times New Roman", Times, serif;
+  text-decoration: none;
+}
