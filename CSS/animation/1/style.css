@@ -1,0 +1,30 @@
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: pink;
+  animation-name: widthanimation;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-delay: 0ms;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+@keyframes fontanimation {
+  from {
+    font-size: 20px;
+  }
+  to {
+    font-size: 40px;
+  }
+}
+@keyframes widthanimation {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: green;
+  }
+  100% {
+    background-color: white;
+  }
+}
